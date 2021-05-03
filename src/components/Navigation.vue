@@ -38,8 +38,11 @@
             <div class="navbar-end">
               <div class="navbar-item">
                 <div class="buttons">
-                  <a class="button is-primary is-outlined" href="#">Log In</a
-                  ><a class="button is-primary" href="#">Sign Up</a>
+                  <router-link class="button is-primary is-outlined" to="/login"
+                    >Log In</router-link
+                  ><router-link class="button is-primary" to="/register"
+                    >Sign Up</router-link
+                  >
                 </div>
               </div>
             </div>
@@ -98,9 +101,13 @@
               </div>
             </nav>
             <div class="mb-6 pt-5 has-border-top">
-              <a class="button is-block is-primary is-outlined mb-2" href="#"
-                >Log In</a
-              ><a class="button is-block is-primary" href="#">Sign Up</a>
+              <router-link
+                class="button is-block is-primary is-outlined mb-2"
+                to="/login"
+                >Log In</router-link
+              ><router-link class="button is-block is-primary" to="/register"
+                >Sign Up</router-link
+              >
             </div>
           </div>
           <div class="pl-4 pb-4 mt-auto">

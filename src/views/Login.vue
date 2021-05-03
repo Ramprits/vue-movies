@@ -22,11 +22,12 @@
                 src="metis-assets/logos/metis/metis.svg"
                 alt=""
                 width="106"/></a
-            ><a class="button is-primary is-outlined" href="#">Sign Up</a>
+            ><router-link class="button is-primary is-outlined" to="/register"
+              >Sign Up</router-link
+            >
           </div>
           <div>
-            <span class="subtitle is-spaced">Sign In</span>
-            <h4 class="title is-size-3">Join our community</h4>
+            <h4 class="title is-size-3">Welcome back!</h4>
             <div class="mb-5">
               <div class="field">
                 <div class="control has-icons-right">

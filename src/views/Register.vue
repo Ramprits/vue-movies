@@ -22,7 +22,9 @@
                 src="metis-assets/logos/metis/metis.svg"
                 alt=""
                 width="106"/></a
-            ><a class="button is-primary is-outlined" href="#">Sign In</a>
+            ><router-link class="button is-primary is-outlined" to="/login"
+              >Sign in</router-link
+            >
           </div>
           <div>
             <span class="subtitle is-spaced">Sign Up</span>
